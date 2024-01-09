@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,11 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 1rem;
+  column-gap: 3rem;
 }
